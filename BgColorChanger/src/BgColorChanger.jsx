@@ -25,6 +25,7 @@ export default function BgColorChanger() {
     { label: 'Violet', value: 'bg-purple-900' },
   ];
 
+
   const imageBackgrounds = [
     "https://images.pexels.com/photos/8409851/pexels-photo-8409851.jpeg",
     "https://images.pexels.com/photos/6728316/pexels-photo-6728316.jpeg",
@@ -217,3 +218,5 @@ export default function BgColorChanger() {
     </div>
   );
 }
+
+// BgColorChanger.jsx
