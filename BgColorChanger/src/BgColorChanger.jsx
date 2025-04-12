@@ -8,10 +8,10 @@ export default function BgColorChanger() {
   const [mediaUrl, setMediaUrl] = useState('');
 
   const gradientThemes = [
-    { label: 'Violet to Red', value: 'from-purple-600 via-pink-600 to-red-600' },
-    { label: 'Blue to Cyan', value: 'from-blue-600 via-cyan-500 to-cyan-400' },
-    { label: 'Green to Emerald', value: 'from-green-500 via-emerald-500 to-emerald-700' },
-    { label: 'Yellow to Orange', value: 'from-yellow-400 via-orange-400 to-orange-600' },
+    { label: 'Violet to Red', value: 'from-purple-100 via-pink-900 to-red-600' },
+    { label: 'Blue to Cyan', value: 'from-blue-100 via-cyan-500 to-cyan-100' },
+    { label: 'Green to Emerald', value: 'from-green-20 via-green-500 to-emerald-900' },
+    { label: 'Yellow to Orange', value: 'from-yellow-10 via-orange-400 to-orange-600' },
     { label: 'Gray to Black', value: 'from-gray-100 via-gray-600 to-black' },
     { label: 'Indigo to Pink', value: 'from-indigo-600 via-purple-600 to-pink-600' },
   ];
