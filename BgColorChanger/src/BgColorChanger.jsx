@@ -8,10 +8,10 @@ export default function BgColorChanger() {
   const [mediaUrl, setMediaUrl] = useState('');
 
   const gradientThemes = [
-    { label: 'Violet to Red', value: 'from-purple-600 via-pink-600 to-red-600' },
-    { label: 'Blue to Cyan', value: 'from-blue-600 via-cyan-500 to-cyan-400' },
-    { label: 'Green to Emerald', value: 'from-green-500 via-emerald-500 to-emerald-700' },
-    { label: 'Yellow to Orange', value: 'from-yellow-400 via-orange-400 to-orange-600' },
+    { label: 'Violet to Red', value: 'from-purple-100 via-pink-900 to-red-600' },
+    { label: 'Blue to Cyan', value: 'from-blue-100 via-cyan-500 to-cyan-100' },
+    { label: 'Green to Emerald', value: 'from-green-20 via-green-500 to-emerald-900' },
+    { label: 'Yellow to Orange', value: 'from-yellow-10 via-orange-400 to-orange-600' },
     { label: 'Gray to Black', value: 'from-gray-100 via-gray-600 to-black' },
     { label: 'Indigo to Pink', value: 'from-indigo-600 via-purple-600 to-pink-600' },
   ];
@@ -25,6 +25,7 @@ export default function BgColorChanger() {
     { label: 'Violet', value: 'bg-purple-900' },
   ];
 
+
   const imageBackgrounds = [
     "https://images.pexels.com/photos/8409851/pexels-photo-8409851.jpeg",
     "https://images.pexels.com/photos/6728316/pexels-photo-6728316.jpeg",
@@ -32,6 +33,7 @@ export default function BgColorChanger() {
     "https://images.pexels.com/photos/8888492/pexels-photo-8888492.jpeg",
     "https://images.pexels.com/photos/27294847/pexels-photo-27294847/free-photo-of-a-bee-is-sitting-on-a-thistle-flower.jpeg",
     "https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg",
+    "https://images.pexels.com/photos/2386141/pexels-photo-2386141.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
   ];
 
   const videoBackgrounds = [
@@ -217,3 +219,5 @@ export default function BgColorChanger() {
     </div>
   );
 }
+
+// BgColorChanger.jsx
