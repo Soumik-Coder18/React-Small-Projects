@@ -33,6 +33,7 @@ export default function BgColorChanger() {
     "https://images.pexels.com/photos/8888492/pexels-photo-8888492.jpeg",
     "https://images.pexels.com/photos/27294847/pexels-photo-27294847/free-photo-of-a-bee-is-sitting-on-a-thistle-flower.jpeg",
     "https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg",
+    "https://images.pexels.com/photos/2386141/pexels-photo-2386141.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
   ];
 
   const videoBackgrounds = [
